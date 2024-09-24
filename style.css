@@ -1,0 +1,437 @@
+:root {
+    --text-color: white;
+    --first-button-color: #B40023;
+    --meat-bgcolor: rgb(204, 186, 164);
+    --navcolor: #005E2C;
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 3px solid red;
+    width: fit-content;
+    min-width: 425px;
+    font-family: "Roboto Slab", serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.full-container {
+    min-width:425px;
+}
+
+nav {
+    background-image: url(Group\ 5372.png);
+    color: var(--text-color);
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+
+}
+.first-content-image {
+    width: 100%;
+    margin: 0;
+}
+.top-bar-content {
+    background-color: var(--nav-color);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: fit-content;
+}
+
+.overview-content {
+    position: absolute;
+    color: var(--text-color);
+    top: 35%;
+    left: 5%;
+}
+
+.overview-content h1 {
+    font-size: 2.5em;
+}
+
+#first-content-button {
+    background-color: var(--first-button-color);
+    color: var(--text-color);
+    padding: 10px;
+    border: 0;
+    width: 40%;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+}
+
+#second-content-button {
+    background-color: var(--navcolor);
+    padding: 15px;
+    border: 0;
+    color: white;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+}
+
+#third-content-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 15px;
+    border: 0;
+    color: white;
+    border: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+
+}
+
+#fourth-content-button {
+    background-color: var(--navcolor);
+    padding: 15px;
+    border: 0;
+    color: white;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+}
+
+#fifth-content-button {
+    width: 30%;
+    background-color: rgba(87, 86, 86, 0.5);
+    padding: 15px;
+    border: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 800;
+}
+
+.second-background-image {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.three-image-contents {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.three-image-contents h2 {
+    font-size: 1.3em;
+}
+
+.three-image-contents p {
+    font-size: 0.9em;
+}
+
+.meat-content {
+    background-color: var(--meat-bgcolor);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.meat-image {
+    width: 100%;
+    margin: 0;
+}
+
+.meat-right-content {
+    width: 30%;
+}
+
+.meat-right-content h2,
+img,
+p {
+    margin-bottom: 15px;
+}
+
+.meat-message {
+    width: 100%;
+    background-image: url(Group\ 5368.png);
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+
+.sausage-image {
+    width: 100%;
+    margin: 0;
+}
+
+.meat-left-content {
+    width: 30%;
+    text-align: center;
+}
+
+.packages {
+    background-image: url(Group\ 5369.png);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.package-pic {
+    margin: 0;
+}
+
+.Processing-content {
+    background-image: url(Rectangle\ 4361.png);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+}
+
+.inside-content {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 40%;
+    padding: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.inside-next-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 40%;
+    padding: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer-div {
+    background-image: url(Group\ 5370.png);
+    width: 100%;
+    padding:20px 0;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+    width: 30%;
+    position: relative;
+    left: 6%;
+    color: #B40023;
+}
+
+.main-footer {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.side-footer {
+    position: relative;
+    left: 4%;
+    bottom: 20px;
+    color: #B40023;
+}
+
+.side-main-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom:30px;
+
+}
+
+.side-main-links a {
+    color: black;
+    line-height: 2rem;
+}
+
+.last-footer {
+    display: flex;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: grey;
+}
+
+.icons {
+    color: grey;
+    display: flex;
+    gap: 20px;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.fa-solid-fa-bars{
+    opacity: 0;
+}
+@media(max-width:767px) {
+body{
+   max-width: 767px;
+
+}
+.full-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar li{
+    opacity: 0;
+}
+
+.overview-content {
+    position: absolute;
+    color: var(--text-color);
+    top: 15%;
+    left: 5%;
+}
+.second-background-image {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    margin: 0;
+}
+.three-image-contents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.three-image-contents div{
+    width: 100%;
+    height: 100%;
+}
+
+.meat-image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.meat-right-content {
+    width: 100%;
+}
+.meat-content {
+    background-color: var(--meat-bgcolor);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+.packages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Processing-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inside-content {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    width: 70%;
+    padding: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+.inside-next-content {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 70%;
+    padding: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer-div {
+    background-image: url(Group\ 5370.png);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* .underline {
+    border-bottom: 1px solid black;
+    width: 30%;
+   
+    left: 6%;
+    color: #B40023;
+}
+
+.main-footer {
+    display: flex;
+   
+    gap: 30px;
+}
+
+.side-footer {
+   
+    left: 4%;
+    bottom: 20px;
+    color: #B40023;
+}
+
+/* .side-main-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom:30px;
+
+} */
+
+.side-main-links a {
+    color: black;
+    line-height: 2rem;
+} */
+
+.last-footer {
+    display: flex;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: grey;
+}
+
+.icons {
+    color: grey;
+    display: flex;
+    gap: 20px;
+
+}
+}
