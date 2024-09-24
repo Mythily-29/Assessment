@@ -295,37 +295,32 @@ ul{
 .fa-solid-fa-bars{
     opacity: 0;
 }
-@media(max-width:767px) {
+@media(max-width:650px) {
 body{
-   max-width: 767px;
-
+   min-width: 425px;
 }
 .full-container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    min-width: 425px;
+
 }
 .navbar li{
     opacity: 0;
 }
 
 .overview-content {
-    position: absolute;
+   
     color: var(--text-color);
     top: 15%;
     left: 5%;
 }
-.second-background-image {
+#second-pic {
     width: 100%;
-    height: 100%;
-    /* position: relative; */
-    margin: 0;
+    height: fit-content;
 }
 .three-image-contents {
-    width: 100%;
+    width:100%;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
 }
 .three-image-contents div{
     width: 100%;
@@ -384,40 +379,6 @@ body{
     flex-wrap: wrap;
    
 }
-/* .underline {
-    border-bottom: 1px solid black;
-    width: 30%;
-   
-    left: 6%;
-    color: #B40023;
-}
-
-.main-footer {
-    display: flex;
-   
-    gap: 30px;
-}
-
-.side-footer {
-   
-    left: 4%;
-    bottom: 20px;
-    color: #B40023;
-}
-
-/* .side-main-links {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    bottom:30px;
-
-} */
-
-.side-main-links a {
-    color: black;
-    line-height: 2rem;
-} */
 
 .last-footer {
     display: flex;
@@ -434,4 +395,19 @@ body{
     gap: 20px;
 
 }
+/* .meat-message{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* .sausage-image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meat-left-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
 }
